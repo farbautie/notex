@@ -45,6 +45,39 @@ enabling users to take notes in markdown and organize them effectively.
 - **Node.js** (version >=18.x.x)
 - **PostgreSQL** (for database)
 
+### Project structure
+
+```bash
+├── cmd
+│   └── api
+│       └── main.go
+├── config
+│   └── config.go
+├── internal
+│      ├── api
+│      │   ├── api.go
+│      │   ├── router.go
+│      │   └── routes.go
+├── pkg
+│   ├── database
+│   │   ├── database.go
+│   │   ├── options.go
+│   │   └── schema.go
+│   ├── server
+│   │   ├── server.go
+│   │   ├── options.go
+│   │   └── routes.go
+│   └── utils
+│       ├── auth.go
+│       ├── errors.go
+│       ├── middleware.go
+│       └── response.go
+├── README
+├── LICENSE
+├── go.mod
+└── go.sum
+```
+
 ## License
 
 This project is licensed under the GNU Affero General Public License v3.0.
