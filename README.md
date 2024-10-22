@@ -37,12 +37,12 @@ enabling users to take notes in markdown and organize them effectively.
 
 - **React**: For building the interactive user interface.
 - **Tailwind CSS**: For rapid UI development with a focus on clean, modern design.
-- **shadcn**: To provide a cohesive component library for consistent UI patterns.
+- **Shadcn/ui**: To provide a cohesive component library for consistent UI patterns.
 
 ### Prerequisites
 
-- **Go** (version 1.23+)
-- **Node.js** (version 16+)
+- **Go** (version >=1.23)
+- **Node.js** (version >=18.x.x)
 - **PostgreSQL** (for database)
 
 ## License
